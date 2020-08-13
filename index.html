@@ -41,7 +41,7 @@
           <!-- 黑胶碟片 -->
           <img src="images/disc.png" class="disc autoRotate" />
           
-          <img :src="imageMusic===''?'./images/cover.png': coverUrl"  class="cover autoRotate" />
+          <img :src="imageMusic==''?'./images/cover.png': imageMusic"  class="cover autoRotate" />
         </div>
         <!-- 评论容器 -->
         <div class="comment_wrapper">
